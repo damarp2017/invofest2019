@@ -102,8 +102,10 @@
           jenis_lomba = "Application Development Competition";
         } else if(data.jenis_lomba == "wdc"){
           jenis_lomba = "Web Develpoment Competition";
-        } else {
+        } else if(data.jenis_lomba == "dpc"){
           jenis_lomba = "Database Programming Competition";
+        } else {
+          jenis_lomba = "Graphic Design Competition";
         }
 
         $("#jenis_lomba").val(jenis_lomba);
